@@ -26,8 +26,7 @@ import { CartProvider } from "react-use-cart";
 const Breakfast = () => {
   return (
     <body>
- 
-<nav class="navbar navbar-expand-md px-5 py-3 nav1">
+       <nav class="navbar navbar-expand-md px-5 py-3 nav1">
         <a class="navbar-brand" href="#">
           <img
             src="https://food-le.com/data/image/options/logo.png"
@@ -49,45 +48,43 @@ const Breakfast = () => {
         </a>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav mx-auto">
-
-          <li class="nav-item">
+           
+            
+            <li class="nav-item">
               <a class="nav-link" href="/Breakfast">
                 Break Fast
               </a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="/Launch">
                 Lunch
               </a>
-            </li>
-            
+              </li>
             <li class="nav-item">
               <a class="nav-link" href="/Dinner">
                 Dinner
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Contact">
-                Contact
-              </a>
-            </li>
+            
 
-            <li class="nav-item dropdown ml-5">
+            <li class="nav-item dropdown">
               <a
                 class="nav-link toggle"
                 href="#"
                 id="navbardrop"
                 data-toggle="dropdown"
               >
-                Order
+                Order <img src="https://cdn-icons-png.flaticon.com/512/3500/3500833.png" width="20"/>
               </a>
               <div class="dropdown-menu">
-              <a class="dropdown-item" href="/Breakfast">
-                Break Fast
-              </a>
+              <a class="dropdown-item" href="/Home">
+               Home
+                </a>
+                <a class="dropdown-item" href="/Breakfast">
+                 Break Fast
+                </a>
                 <a class="dropdown-item" href="/Launch">
-                  Launch
+                  Lunch
                 </a>
                 <a class="dropdown-item" href="/Dinner">
                   Dinner
@@ -97,6 +94,8 @@ const Breakfast = () => {
           </ul>
         </div>
       </nav>
+
+
 
     <section id="Lunch1">
    <div class="container-fluid">

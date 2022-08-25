@@ -6,13 +6,19 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
+
+
+
+
+
+
 function Home() {
   return (
 
-   
-
     <body>
-      <nav class="navbar navbar-expand-md px-5 py-3 nav1">
+
+   
+<nav class="navbar navbar-expand-md px-5 py-3 nav1">
         <a class="navbar-brand" href="#">
           <img
             src="https://food-le.com/data/image/options/logo.png"
@@ -51,36 +57,36 @@ function Home() {
                 Dinner
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Contact">
-                Contact
-              </a>
-            </li>
+            
 
-            <li class="nav-item dropdown ml-5">
+            <li class="nav-item dropdown">
               <a
                 class="nav-link toggle"
                 href="#"
                 id="navbardrop"
                 data-toggle="dropdown"
               >
-                Order
+                Order <img src="https://cdn-icons-png.flaticon.com/512/3500/3500833.png" width="20"/>
               </a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">
-                  Link 1
+              <a class="dropdown-item" href="/Home">
+               Home
                 </a>
-                <a class="dropdown-item" href="#">
-                  Link 2
+                <a class="dropdown-item" href="/Breakfast">
+                 Break Fast
                 </a>
-                <a class="dropdown-item" href="#">
-                  Link 3
+                <a class="dropdown-item" href="/Launch">
+                  Lunch
+                </a>
+                <a class="dropdown-item" href="/Dinner">
+                  Dinner
                 </a>
               </div>
             </li>
           </ul>
         </div>
       </nav>
+
 
       <section id="Home1">
         <div class="container">
